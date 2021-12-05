@@ -4,8 +4,8 @@ export const vertexShaderSource = `#version 300 es
 const vec4 pl = vec4(3.0, 4.0, 5.0, 1.0);           // 位置
 
 // 頂点属性
-in vec4 pv;                                         // ローカル座標系の頂点位置
 in vec4 nv;                                         // 頂点の法線ベクトル
+in vec4 pv;                                         // ローカル座標系の頂点位置
 in vec2 tv;                                         // 頂点のテクスチャ座標
 
 // 変換行列
