@@ -27,7 +27,7 @@ void main(void)
   n = normalize((mg * nv).xyz);                     // 法線ベクトル
   l = normalize((pl * p.w - p * pl.w).xyz);         // 光線ベクトル
   h = normalize(l + v);                             // 視線ベクトル
-  // tc = tv;                                          // テクスチャ座標
+  tc = tv;                                          // テクスチャ座標
 
   gl_Position = mc * pv;
 }
